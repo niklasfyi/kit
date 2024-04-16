@@ -17,6 +17,9 @@
   },
   "type": "module",
   "indiekit": {
+    "application": {
+      "url": "https://kit.niklas.fyi"
+    },
     "plugins": [
       "@indiekit/store-github",
       "@indiekit/syndicator-mastodon"
