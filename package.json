@@ -32,7 +32,7 @@
             "path": "src/content/note/{yyyy}-{MM}-{dd}-{slug}.md",
             "url": "note/{yyyy}/{MM}/{slug}"
           }
-        },
+        }
       }
     },
     "@indiekit/store-github": {
