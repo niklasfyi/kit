@@ -25,7 +25,15 @@
       "@indiekit/syndicator-mastodon"
     ],
     "publication": {
-      "me": "https://www.niklas.fyi"
+      "me": "https://www.niklas.fyi",
+      "postTypes": {
+        "note": {
+          "post": {
+            "path": "src/content/note/{yyyy}-{MM}-{dd}-{slug}.md",
+            "url": "note/{yyyy}/{MM}/{slug}"
+          }
+        },
+      }
     },
     "@indiekit/store-github": {
       "user": "niklasfyi",
