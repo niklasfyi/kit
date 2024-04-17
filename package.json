@@ -29,8 +29,14 @@
       "postTypes": {
         "note": {
           "post": {
-            "path": "src/content/note/{yyyy}-{MM}-{dd}-{slug}.md",
-            "url": "note/{yyyy}/{MM}/{slug}"
+            "path": "src/content/{yyyy}-{MM}-{dd}-{slug}.md",
+            "url": "{yyyy}/{MM}/{slug}"
+          }
+        },
+        "like": {
+          "post": {
+            "path": "src/content/{yyyy}-{MM}-{dd}-{slug}.md",
+            "url": "{yyyy}/{MM}/{slug}"
           }
         }
       }
