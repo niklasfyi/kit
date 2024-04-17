@@ -29,14 +29,14 @@
       "postTypes": {
         "note": {
           "post": {
-            "path": "src/content/{yyyy}-{MM}-{dd}-{slug}.md",
-            "url": "{yyyy}/{MM}/{slug}"
+            "path": "src/content/{yyyy}/{MM}/{dd}/{slug}.md",
+            "url": "{yyyy}/{MM}/{dd}/{slug}"
           }
         },
         "like": {
           "post": {
-            "path": "src/content/{yyyy}-{MM}-{dd}-{slug}.md",
-            "url": "{yyyy}/{MM}/{slug}"
+            "path": "src/content/{yyyy}/{MM}/{dd}/{slug}.md",
+            "url": "{yyyy}/{MM}/{dd}/{slug}"
           }
         }
       }
