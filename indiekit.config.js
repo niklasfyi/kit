@@ -5,7 +5,7 @@ dotenv.config();
 
 const config = {
     application: {
-        url: "https://www.niklas.fyi",
+        url: "https://kit.niklas.fyi",
     },
     plugins: [
         "@indiekit/store-github",
