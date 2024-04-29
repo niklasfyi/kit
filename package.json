@@ -16,44 +16,9 @@
     "node": ">=20"
   },
   "type": "module",
-  "indiekit": {
-    "application": {
-      "url": "https://kit.niklas.fyi"
-    },
-    "plugins": [
-      "@indiekit/store-github",
-      "@indiekit/syndicator-mastodon"
-    ],
-    "publication": {
-      "me": "https://www.niklas.fyi",
-      "postTypes": {
-        "note": {
-          "post": {
-            "path": "src/content/{yyyy}/{MM}/{dd}/{slug}.md",
-            "url": "{yyyy}/{MM}/{dd}/{slug}"
-          }
-        },
-        "like": {
-          "post": {
-            "path": "src/content/{yyyy}/{MM}/{dd}/{slug}.md",
-            "url": "{yyyy}/{MM}/{dd}/{slug}"
-          }
-        }
-      }
-    },
-    "@indiekit/store-github": {
-      "user": "niklasfyi",
-      "repo": "niklasdotfyi",
-      "branch": "main"
-    },
-    "@indiekit/syndicator-mastodon": {
-      "url": "https://hachyderm.io",
-      "user": "niklasfyi"
-    }
-  },
   "dependencies": {
-    "@indiekit/indiekit": "^1.0.0-beta.14",
-    "@indiekit/store-github": "^1.0.0-beta.14",
-    "@indiekit/syndicator-mastodon": "^1.0.0-beta.12"
+    "@indiekit/indiekit": "^1.0.0-beta.16",
+    "@indiekit/store-github": "^1.0.0-beta.15",
+    "@indiekit/syndicator-mastodon": "^1.0.0-beta.16"
   }
 }
