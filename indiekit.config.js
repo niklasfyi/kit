@@ -30,7 +30,7 @@ const config = {
             checkin: {
                 discovery: "checkin",
                 post: {
-                    path: "src/content/checkin/{yyyy}/{MM}/{dd}/{slug}.md",
+                    path: "src/content/checkin/{yyyy}/{MM}/{dd}/{slug}.json",
                     url: "checkin/{yyyy}/{MM}/{dd}/{slug}"
                 },
             },
