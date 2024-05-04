@@ -17,21 +17,21 @@ const config = {
         postTypes: {
             note: {
                 post: {
-                    path: "src/content/{yyyy}/{MM}/{dd}/{slug}.md",
-                    url: "{yyyy}/{MM}/{dd}/{slug}"
+                    path: "src/content/note/{yyyy}/{MM}/{dd}/{slug}.md",
+                    url: "note/{yyyy}/{MM}/{dd}/{slug}"
                 },
             },
             like: {
                 post: {
-                    path: "src/content/{yyyy}/{MM}/{dd}/{slug}.md",
-                    url: "{yyyy}/{MM}/{dd}/{slug}"
+                    path: "src/content/like/{yyyy}/{MM}/{dd}/{slug}.md",
+                    url: "like/{yyyy}/{MM}/{dd}/{slug}"
                 },
             },
             checkin: {
                 discovery: "checkin",
                 post: {
-                    path: "src/content/{yyyy}/{MM}/{dd}/{slug}.md",
-                    url: "{yyyy}/{MM}/{dd}/{slug}"
+                    path: "src/content/checkin/{yyyy}/{MM}/{dd}/{slug}.md",
+                    url: "checkin/{yyyy}/{MM}/{dd}/{slug}"
                 },
             },
         },
